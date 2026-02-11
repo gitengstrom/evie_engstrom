@@ -8,4 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  preview: {
+    allowedHosts: ['eve-app-jrklc.ondigitalocean.app', 'eveengstrom.com']
+  }
 })
