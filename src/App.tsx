@@ -114,10 +114,17 @@ function App() {
         <div className="max-w-4xl mx-auto px-6">
           <div className="flex flex-col md:flex-row gap-12 items-center">
             <div className="w-full md:w-1/3 aspect-square bg-ash/30 rounded-2xl overflow-hidden relative group">
-              {/* Photo Placeholder */}
-              <div className="absolute inset-0 flex items-center justify-center text-teal/40 font-display italic text-lg p-8 text-center">
-                Photo of my creative workspace coming soon
-              </div>
+              {personalInfo.profileImage ? (
+                <img 
+                  src={personalInfo.profileImage} 
+                  alt={personalInfo.name} 
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" 
+                />
+              ) : (
+                <div className="absolute inset-0 flex items-center justify-center text-teal/40 font-display italic text-lg p-8 text-center">
+                  Photo of my creative workspace coming soon
+                </div>
+              )}
               <div className="absolute inset-0 border-4 border-mauve/20 m-4 rounded-xl group-hover:border-mauve/40 transition-colors"></div>
             </div>
             <div className="w-full md:w-2/3">
