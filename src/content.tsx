@@ -1,4 +1,4 @@
-import { Coffee, Heart, Music, Waves, Warehouse, PenTool, Trophy, LucideIcon } from 'lucide-react';
+import { Coffee, Heart, Music, Waves, Warehouse, PenTool, Trophy, type LucideIcon } from 'lucide-react';
 import contentData from './data.json';
 
 // Icon mapping to allow JSON to specify icons by name
