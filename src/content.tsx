@@ -6,7 +6,7 @@ export const personalInfo = {
   location: "Bremerton, WA",
   email: "eve.engstrom@icloud.com", // Placeholder based on resume pattern
   phone: "360.602.5882",
-  mission: "I will be graduating in May 2025, and I am looking for a job to kick off my professional career as a technical writer and editor. I want to work in a faith-based organization that is close to home and has a mission that strives towards positive change in the lives of people in need of help and of Jesus.",
+  mission: "I graduated in May 2025, and I am looking for a job to kick off my professional career as a technical writer and editor. I want to work in a faith-based organization that is close to home and has a mission that strives towards positive change in the lives of people in need of help and of Jesus.",
   socials: {
     linkedin: "#", // Add link if available
     instagram: "#"
