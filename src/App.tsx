@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { personalInfo, education, experience, skills, creativeProjects, writingSamples } from './content';
-import { Mail, Phone, MapPin, Download, ExternalLink, ChevronDown, Menu, X, Calendar, Tag } from 'lucide-react';
+import { Mail, Phone, MapPin, Download, ExternalLink, ChevronDown, Menu, X, Calendar, Tag, Linkedin, Instagram } from 'lucide-react';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -340,9 +340,48 @@ function App() {
             </div>
           </div>
           
-          <div className="flex items-center justify-center gap-2 text-mauve font-bold tracking-widest uppercase text-xs">
+          <div className="flex items-center justify-center gap-2 text-mauve font-bold tracking-widest uppercase text-xs mb-8">
             <MapPin size={16} className="text-salmon" />
             {personalInfo.location}
+          </div>
+
+          <div className="flex justify-center gap-6">
+            {personalInfo.socials.linkedin && (
+              <a 
+                href={personalInfo.socials.linkedin} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-3 bg-ash/5 rounded-2xl text-teal hover:text-salmon hover:bg-ash/10 transition-all shadow-sm"
+                title="LinkedIn"
+              >
+                <Linkedin size={24} />
+              </a>
+            )}
+            {personalInfo.socials['instagram personal'] && (
+              <a 
+                href={personalInfo.socials['instagram personal']} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-3 bg-ash/5 rounded-2xl text-teal hover:text-salmon hover:bg-ash/10 transition-all shadow-sm"
+                title="Instagram (Personal)"
+              >
+                <Instagram size={24} />
+              </a>
+            )}
+            {personalInfo.socials['instagram music'] && (
+              <a 
+                href={personalInfo.socials['instagram music']} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-3 bg-ash/5 rounded-2xl text-teal hover:text-salmon hover:bg-ash/10 transition-all shadow-sm"
+                title="Instagram (Music)"
+              >
+                <div className="relative">
+                  <Instagram size={24} />
+                  <div className="absolute -bottom-1 -right-1 w-2.5 h-2.5 bg-salmon rounded-full border-2 border-linen"></div>
+                </div>
+              </a>
+            )}
           </div>
         </div>
       </section>
