@@ -139,28 +139,28 @@
   ],
   "writingSamples": [
     {
-      "title": "The Importance of Clear Communication",
-      "date": "January 2026",
-      "category": "Technical Writing",
-      "description": "A deep dive into why clarity is the most important factor in technical documentation and how to achieve it.",
-      "link": "#",
-      "tags": ["Best Practices", "Communication"]
+      "title": "How a School Uniform Can Change a Life",
+      "date": "June 2025",
+      "category": "Nonprofit impact narrative / fundraising feature",
+      "description": "A young girl named Juana in the Dominican Republic shares how receiving a required school uniform through Children of the Nations helped her stay in school, feel cared for, and keep pursuing her dream of becoming a nurse.",
+      "link": "https://www.cotni.org/messages/how-a-school-uniform-can-change-a-life",
+      "tags": ["Storytelling", "Fundraising/Marketing"]
     },
     {
-      "title": "Guide to Social Media Strategy",
-      "date": "November 2025",
-      "category": "Marketing",
-      "description": "A comprehensive guide on developing a consistent and engaging social media presence for non-profit organizations.",
-      "link": "#",
-      "tags": ["Marketing", "Social Media"]
+      "title": "Thallah’s Journey from Loss to Leadership",
+      "date": "July 2025",
+      "category": "Nonprofit “impact story” / fundraising feature",
+      "description": "One-sentence description: This piece is a donor-facing impact narrative that traces Thallah’s path from losing his mother in 2003 to being taken in by Children of the Nations–Sierra Leone, earning First Class Honors in banking and finance, and returning to volunteer—positioning his success as the fruit of sponsor generosity.",
+      "link": "https://www.cotni.org/messages/thallah-s-journey-from-loss-to-leadership?theme=?theme",
+      "tags": ["Storytelling", "Fundraising/Marketing"]
     },
     {
-      "title": "Interview Techniques for Impactful Narratives",
+      "title": "Not Sure What to Write in Your Letter? Here Are Five Bible Verses to Encourage and Uplift Your Sponsored Child",
       "date": "August 2025",
-      "category": "Editing",
-      "description": "A summary of effective interview techniques used to gather compelling stories from partner countries during my internship.",
-      "link": "#",
-      "tags": ["Interviewing", "Storytelling"]
+      "category": "Nonprofit content marketing / donor-engagement how-to (faith-based inspirational guidance)",
+      "description": "One-sentence description: This article is a sponsor-friendly “how to write your child” guide that encourages simple, uplifting letters and offers five Bible verses (with brief explanations) sponsors can include to spiritually encourage their sponsored child or student.",
+      "link": "https://www.cotni.org/messages/not-sure-what-to-write-in-your-letter-here-are-five-bible-verses-to-encourage-and-uplift-your-sponsored-child",
+      "tags": ["Instructional/How-to", "Faith-based encouragement"]
     }
   ],
   "writingTemplate": {
